@@ -1,11 +1,11 @@
-# Public: Install Mou.app into /Applications.
+# Public: Install grabbox.app into /Applications.
 #
 # Examples
 #
-#   include mou
-class mou {
-  package { 'Mou':
-    source   => 'http://mouapp.com/download/Mou.zip',
+#   include grabbox
+class grabbox {
+  package { 'Grabbox':
+    source   => 'http://grabbox.devsoft.no/updates/GrabBox%201.1.7.zip',
     provider => 'compressed_app'
   }
 }

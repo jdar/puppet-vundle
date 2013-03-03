@@ -1,11 +1,11 @@
-# Mou Puppet Module for Boxen
+# grabbox Puppet Module for Boxen
 
-Install [Mou](http://mouapp.com/) App, a Markdown editor for web developers.
+Install [grabbox](http://grabbox.devsoft.no) App, Simple screenshot sharing for Mac
 
 ## Usage
 
 ```puppet
-include mou
+include grabbox
 ```
 
 ## Required Puppet Modules

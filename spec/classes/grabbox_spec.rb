@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe 'mou' do
+describe 'grabbox' do
   let(:facts) do
     {
       :boxen_home => '/opt/boxen'
@@ -8,8 +8,8 @@ describe 'mou' do
   end
 
   it do
-    should contain_package('Mou').with({
-      :source   => 'http://mouapp.com/download/Mou.zip',
+    should contain_package('grabbox').with({
+      :source   => 'http://grabbox.devsoft.no/updates/GrabBox%201.1.7.zip',
       :provider => 'compressed_app'
     })
   end
