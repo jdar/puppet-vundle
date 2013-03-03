@@ -6,6 +6,6 @@
 class gpgtools {
   package { 'gpgtools':
     source   => 'https://github.com/downloads/GPGTools/GPGTools/GPGTools-20120318.dmg',
-    provider => 'appdmg'
+    provider => 'pkgdmg'
   }
 }
