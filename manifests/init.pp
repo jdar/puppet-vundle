@@ -1,11 +1,11 @@
-# Public: Install grabbox.app into /Applications.
+# Public: Install gpgtools.app into /Applications.
 #
 # Examples
 #
-#   include grabbox
-class grabbox {
-  package { 'grabbox':
-    source   => 'http://grabbox.devsoft.no/updates/GrabBox%201.1.7.zip',
-    provider => 'compressed_app'
+#   include gpgtools
+class gpgtools {
+  package { 'gpgtools':
+    source   => 'https://github.com/downloads/GPGTools/GPGTools/GPGTools-20120318.dmg',
+    provider => 'appdmg'
   }
 }

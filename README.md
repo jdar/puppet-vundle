@@ -1,11 +1,11 @@
-# grabbox Puppet Module for Boxen
+# gpgtools Puppet Module for Boxen
 
-Install [grabbox](http://grabbox.devsoft.no) App, Simple screenshot sharing for Mac
+Install [gpgtools](https://www.gpgtools.org/index.html) App to work with GPG
 
 ## Usage
 
 ```puppet
-include grabbox
+include gpgtools
 ```
 
 ## Required Puppet Modules
