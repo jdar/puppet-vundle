@@ -1,11 +1,12 @@
-# gpgtools Puppet Module for Boxen
+# Vundle Puppet Module for Boxen
 
-Install [gpgtools](https://www.gpgtools.org/index.html) App to work with GPG
+Install [vundle](https://github.com/gmarik/vundle) Vundle a plugin manager for
+Vim
 
 ## Usage
 
 ```puppet
-include gpgtools
+include vundle
 ```
 
 ## Required Puppet Modules

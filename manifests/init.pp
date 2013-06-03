@@ -1,11 +1,16 @@
-# Public: Install gpgtools.app into /Applications.
+# Public: Install vundle
 #
 # Examples
 #
-#   include gpgtools
-class gpgtools {
-  package { 'gpgtools':
-    source   => 'https://github.com/downloads/GPGTools/GPGTools/GPGTools-20120318.dmg',
-    provider => 'pkgdmg'
+#   include vundle
+class vundle {
+  $vundle_dir = "${boxen::config::homedir}/.vimrc/bundle/vundle"
+  file { $vundle_dir:
+    ensure   => 'directory'
   }
+  repository { $vundle_dir:
+    source   => 'https://github.com/gmarik/vundle.git',
+  }
+
+  #Launch vim, run :BundleInstall (or vim +BundleInstall +qall for CLI lovers)
 }
