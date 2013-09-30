@@ -1,7 +1,9 @@
 # Vundle Puppet Module for Boxen
 
-Install [vundle](https://github.com/gmarik/vundle) Vundle a plugin manager for
-Vim
+NB: this doesn't quite work. work stopped 
+
+... because boxen/puppet-vim already includes alternative module system vim-pathogen.
+use that.
 
 ## Usage
 
